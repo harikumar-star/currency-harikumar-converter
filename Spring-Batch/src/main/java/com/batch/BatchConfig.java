@@ -14,11 +14,11 @@ import org.springframework.batch.infrastructure.item.file.builder.FlatFileItemRe
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
-
-@Configuration
 @EnableBatchProcessing
+@Configuration
 public class BatchConfig {
 
     @Bean
@@ -48,7 +48,7 @@ public class BatchConfig {
                 .build();
     }
 
-    @Bean
+   @Bean
     public Job importUserJob(JobRepository jobRepository,
                              Step step1,
                              JobCompletionNotificationListener listener) {
@@ -57,6 +57,7 @@ public class BatchConfig {
                 .start(step1)
                 .build();
     }
+
 
     @Bean
     public Step step1(JobRepository jobRepository,

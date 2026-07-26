@@ -16,3 +16,7 @@ spring:
       initialize-schema: always   # Creates Spring Batch metadata tables
     job:
       enabled: true                # Runs jobs on startup
+
+  logging:
+    level:
+      org.springframework.batch: DEBUG

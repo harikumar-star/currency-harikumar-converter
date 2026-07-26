@@ -16,6 +16,7 @@
         <module name="EnrollMentService" />
         <module name="CurrencyConverter" />
         <module name="Expense-Tracker" />
+        <module name="Spring-Batch" />
         <module name="AttendanceService" />
         <module name="Gateway" />
         <module name="Hospital" />
@@ -46,6 +47,7 @@
       <module name="Hospital" options="-parameters" />
       <module name="PaymentService" options="-parameters" />
       <module name="Quiz-Applicaton" options="-parameters" />
+      <module name="Spring-Batch" options="-parameters" />
       <module name="StudentService" options="-parameters" />
       <module name="TeacherService" options="-parameters" />
       <module name="UserService" options="-parameters" />
