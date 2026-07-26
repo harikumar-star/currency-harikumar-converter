@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Crud-JPA
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/harikumar
+    username: root
+    password: system
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 1111

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Crud-JPA/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CurrencyConverter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Expense-Tracker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hospital/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Movie-Ticket-Book/Booking-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Movie-Ticket-Book/Eureka-Movie-Tickes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Movie-Ticket-Book/PaymentService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Movie-Ticket-Book/UserService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Quiz-Applicaton/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/AttendanceService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/AuthenticationService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/Course-Teacher-Assignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/CourseService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/EnrollMentService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/StudentService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/TeacherService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StudentManagementSystem/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

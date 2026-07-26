@@ -1,0 +1,5 @@
+ResponseEntity.ok(data);                     // 200
+ResponseEntity.status(HttpStatus.CREATED);   // 201
+ResponseEntity.notFound().build();           // 404
+ResponseEntity.badRequest().build();         // 400
+ResponseEntity.noContent().build();          // 204
