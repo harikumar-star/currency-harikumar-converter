@@ -17,7 +17,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
-@EnableBatchProcessing
+@EnableBatchProcessing//remove the enable batch if you want meta table
 @Configuration
 public class BatchConfig {
 
