@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Spring-Batch
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/harikumar
+    username: root
+    password: system
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  batch:
+    jdbc:
+      initialize-schema: always   # Creates Spring Batch metadata tables
+    job:
+      enabled: true                # Runs jobs on startup
