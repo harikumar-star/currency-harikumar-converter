@@ -7,15 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Faculty" />
         <module name="TeacherService" />
         <module name="Quiz-Applicaton" />
         <module name="CourseService" />
         <module name="eureka" />
         <module name="StudentService" />
         <module name="Course-Teacher-Assignment" />
+        <module name="Student" />
         <module name="EnrollMentService" />
         <module name="CurrencyConverter" />
         <module name="Expense-Tracker" />
+        <module name="FeedBack-ApiGateway" />
         <module name="Spring-Batch" />
         <module name="AttendanceService" />
         <module name="Gateway" />
@@ -43,11 +46,14 @@
       <module name="EnrollMentService" options="-parameters" />
       <module name="Eureka-Movie-Tickes" options="-parameters" />
       <module name="Expense-Tracker" options="-parameters" />
+      <module name="Faculty" options="-parameters" />
+      <module name="FeedBack-ApiGateway" options="-parameters" />
       <module name="Gateway" options="-parameters" />
       <module name="Hospital" options="-parameters" />
       <module name="PaymentService" options="-parameters" />
       <module name="Quiz-Applicaton" options="-parameters" />
       <module name="Spring-Batch" options="-parameters" />
+      <module name="Student" options="-parameters" />
       <module name="StudentService" options="-parameters" />
       <module name="TeacherService" options="-parameters" />
       <module name="UserService" options="-parameters" />
