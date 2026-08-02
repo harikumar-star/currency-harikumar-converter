@@ -5,14 +5,23 @@ import lombok.Data;
 
 @Entity
 @Data
+@Table(
+        name = "student",
+        uniqueConstraints = {
+                @UniqueConstraint(columnNames = {"roll_no", "department"})
+        }
+)
 public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "roll_no")
     private Long rollNo;
     private String name;
+    //  @Column(unique = true)  only one column if you want to make unique
     private String department;
+
 
     public Long getId() {
         return id;
