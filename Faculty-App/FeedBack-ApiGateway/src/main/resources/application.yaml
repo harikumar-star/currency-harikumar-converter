@@ -19,3 +19,8 @@ spring:
               uri: http://localhost:5555
               predicates:
                 - Path=/faculty/**
+
+            - id: Attendence-service
+              uri: http://localhost:5555
+              predicates:
+                - Path=/StuAttend/**
