@@ -1,0 +1,12 @@
+{
+  "id" : 101,
+  "name" : "John Doe",
+  "department" : "Engineering",
+  "address" : {
+    "street" : "123 Main Street",
+    "city" : "New York",
+    "state" : "NY",
+    "zipCode" : "10001"
+  },
+  "lsit" : [ 1, 2, 3, 4 ]
+}
