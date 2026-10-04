@@ -42,7 +42,6 @@ public class CrudController {
     }
 
     //Custom Query for select users by id
-
     @GetMapping("/getUserById/{id}")
     public ResponseEntity<User> getUserByName(@PathVariable int id) {
         return userRepository.getByIdCustom(id).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
